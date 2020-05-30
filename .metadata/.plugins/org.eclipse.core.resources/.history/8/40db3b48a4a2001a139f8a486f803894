@@ -1,0 +1,5 @@
+package com.rui.ppmtool.exceptions;
+
+public class ProjectIdExceptionResponse {
+
+}
