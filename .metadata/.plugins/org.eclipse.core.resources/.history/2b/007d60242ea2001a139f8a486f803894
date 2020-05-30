@@ -1,0 +1,5 @@
+package com.rui.ppmtool.repositories;
+
+public interface ProjectRepository {
+
+}
