@@ -30,8 +30,8 @@ public class Project {
 	@Column(updatable = false, unique = true)
 	private String projectIdentifier;
 	
-	@NotBlank(message ="Desciption is required")
-	private String description;
+	@NotBlank(message ="ProjectIdentifier is required")
+	private String desc;
 	
 	@JsonFormat(pattern="yyyy-mm-dd")
 	private Date start_date;
@@ -78,13 +78,13 @@ public class Project {
 	}
 
 
-	public String getdescription() {
-		return description;
+	public String getDesc() {
+		return desc;
 	}
 
 
-	public void setdescription(String description) {
-		this.description = description;
+	public void setDesc(String desc) {
+		this.desc = desc;
 	}
 
 
